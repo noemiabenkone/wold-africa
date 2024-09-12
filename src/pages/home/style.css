@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  }
+  .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+      background-image: url("https://static.vecteezy.com/system/resources/previews/035/618/009/non_2x/ai-generated-a-vivid-vacation-background-bold-colors-cultural-elements-and-generous-copy-space-free-photo.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: white;
+  }
+  .content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100vw;
+      
+  }
+  .content-cria {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 20px;
+  }
+  .content-text {
+    color: white;
+  }
+  button {
+    margin: 10px;
+    padding: 15px;
+    font-size: bold;
+    border-radius: 10px ;
+    background-color: rgb(94, 4, 4);
+    color: white
+  }
+  button:hover {
+  cursor: pointer;
+  background-color: rgb(129, 25, 26);
+  border: none;
+  }
