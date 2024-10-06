@@ -7,7 +7,7 @@ export default function Home(){
     const navigate = useNavigate()
 
     function lindandoComClick(){
-        navigate("/lista/vendas")
+        navigate("/lista/pais")
 
 
     }
